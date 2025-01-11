@@ -1,0 +1,104 @@
+/* Small reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+/* Body */
+body {
+  font-family: "Inter", sans-serif;
+  background: hsl(0, 0%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Container */
+.container {
+  background: hsl(0, 0%, 12%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.5em;
+  border-radius: 15px;
+}
+
+/* Detail Section */
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Image */
+.image {
+  border-radius: 50%;
+  width: 30%;
+  margin: 1em;
+}
+
+/* Heading */
+.heading {
+  margin: 0;
+  padding: 0;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+/* Location text */
+.location {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  letter-spacing: 1px;
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+}
+
+/* About user */
+.about {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  padding-bottom: 0.5em;
+}
+
+/* Button group */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+/* Buttons */
+.btn {
+  background: hsl(0, 0%, 20%);
+  padding: 1em 7em;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
